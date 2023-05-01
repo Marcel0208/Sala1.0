@@ -1,0 +1,116 @@
+
+body{
+  background-image: url(Luni.jpg);
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  position: fixed;
+  background-color: rgb(71, 70, 70);
+  top:0;
+  width: 100%;
+  height: 45px;
+  left: 0;
+}
+
+.button,.button1,.button2{
+  border: 2px solid white;
+  width: fit-content;
+  height: fit-content;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.button2{
+  margin-right: 0.5%;
+  margin-left:auto;
+}
+
+.button{
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.button1{
+  margin-right: 0;
+}
+
+a{
+  color: white;
+  font-size: 18px;
+}
+.title{
+  text-align: center;
+  color:aliceblue;
+  font-size: 180%;
+  font-weight: bold;
+  text-decoration: underline;
+  width: 100%;
+}
+
+article{
+  margin-top: 70px;
+}
+
+table,tr,th,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px 10px;
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+th{
+  background-color:rgb(13, 43, 61) ;
+  font-size: 25px;
+  color: black;
+}
+td{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.Grupa{
+  background-color:rgb(202, 229, 235) ;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+
+@media screen and (max-width: 800px){
+  .button,.button1{
+    border: 2px solid white;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+  .button1{
+    margin-right: 45px;
+    margin-left: 15px;
+  }
+
+  a{
+    color: white;
+    font-size: 13px;
+  }
+  
+  .title{
+    text-align: center;
+    color:aliceblue;
+    font-size: 130%;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  body{
+    background-image: url(LuniMobile.jpg);
+    background-size: 400px 1100px;
+
+  }
+}
